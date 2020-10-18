@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "321875551069",
+    "firebase_url": "https://qwikbook-f70c1.firebaseio.com",
+    "project_id": "qwikbook-f70c1",
+    "storage_bucket": "qwikbook-f70c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321875551069:android:4118c6b9f545f660a1beb4",
+        "android_client_info": {
+          "package_name": "com.example.admin.augscan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321875551069-o9pai5hage3fei4pi3i7vob9r4n2bnte.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOVSjCkqwbNbZCS3Dm5lDfKd0bnGgcwp8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "321875551069-o9pai5hage3fei4pi3i7vob9r4n2bnte.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

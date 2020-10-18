@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.bitsuperkings.qwikbook">
+    package="com.example.admin.augscan">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
 
     <application
         android:allowBackup="true"
@@ -9,7 +14,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".ScanCodeActivitysearch"></activity>
+        <activity android:name=".ScanCodeActivity" />
+        <activity android:name=".ScanCodeActivitydel" />
+        <activity android:name=".viewInventoryActivity" />
+        <activity android:name=".scanItemsActivity" />
+        <activity android:name=".deleteItemsActivity" />
+        <activity android:name=".additemActivity" />
+        <activity android:name=".dashboardActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".SplashsActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
